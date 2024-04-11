@@ -1,0 +1,15 @@
+.glow {
+  box-shadow: 0 0 10px rgba(0, 150, 255, 0.5);
+}
+
+.bg-light-blue {
+  background-color: #add8e6;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.container {
+  padding-top: 50px;
+}
