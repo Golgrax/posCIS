@@ -8,13 +8,19 @@
     <title>Isaah Hideout</title>  
   </head>
   <body>
-    <nav class="navbar navbar-light bg-nav">
-  <a class="navbar-brand text-white" href="#">Isaah Hangout</a>
-    </nav>
-  </br>
-<nav class="navbar navbar-light bg-nav">
-                <a class="navbar-brand text-white">Point of Sales</a>
-</nav>
+    <div class="container text-center">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light-blue glow">
+        <a class="navbar-brand mx-auto font-weight-bold" href="#">Isaah Hangout</a>
+      </nav>
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 text-muted" href="#" onclick="goToHome()">Home</a>
+          <a class="p-2 text-muted" href="#" onclick="goToStocks()">Stocks</a>
+        </nav>
+      </div>
+      <h2 class="mt-5">Point of Sales</h2>
+    </div>
+    <style src="css/pos.css"></style>
     <script src="js/script.js"></script>
   </body>
-  </html>
+</html>
