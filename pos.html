@@ -17,32 +17,13 @@
   <body>
     <nav class="navbar navbar-light bg-nav">
   <a class="navbar-brand text-white" href="#">Isaah Hangout</a>
+<center>
   <button class="btn btn-sm btn-primary ml-auto">Cashier</button>
   <button class="btn btn-sm btn-primary ml-2" onclick="goToStocks()">Inventory</button>
-  <div class="col-md-2" id="search-el" style="display: none;">
-    <input type="text" class="form-control" id="search-input" placeholder="search something..">
-  </div>
+  </center>
     </nav>
     <div class="contain">
       <div class="row">
-        <div class="col-md-3 p-3 cart">
-          <div class="type-buying">
-            <select name="buy-type" id="buy-type" class="form-control mb-2 bg-primary text-white">
-              <option class="bg-white" value="Cash">Cash</option>
-              <option class="bg-white" value="Credit">Credit</option>
-            </select>
-          </div>
-          <div class="item-list mt-2">
-            <div id="loop-invoice">
-              <!-- loop item -->
-            </div>
-          </div>
-          <div class="amount">
-            <span>Tax : PHP <span id="tax">0</span></span>
-            <br>
-            <span>Total : PHP <span id="total">0</span></span>
-          </div>
-        </div>
         <div class="col-md-9 p-3 menu">
           <div class="sub-nav bg-white">
             <div class="row">
